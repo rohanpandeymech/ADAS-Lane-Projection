@@ -1,0 +1,182 @@
+"/Users/yancho007/Documents/SCU DIARY/Semester 1 Fall/DAA/PA2/venv/bin/python" /Users/yancho007/Documents/SCU DIARY/Semester 1 Fall/DAA/PA2/PA2.py 
+
+Test Case 1 : 
+
+*********
+Word Bank List :   ['purp', 'p', 'ur', 'le', 'purpl']
+
+*********
+Our Target is :   purple
+
+*********
+Total --- 2  --- ways Solutions, it is [['le', 'purp'], ['le', 'p', 'ur', 'p']] :
+
+*********
+The Total Run Time:  0.0006476200000000015
+*********
+
+
+
+
+Test Case 2 : 
+
+*********
+Word Bank List :   ['cat', 'dog', 'mouse']
+
+*********
+Our Target is :   hello
+
+*********
+Total --- 0  --- ways Solutions, it is [] :
+
+*********
+The Total Run Time:  0.0005958589999999903
+*********
+
+
+
+
+Test Case 3 : 
+
+*********
+Word Bank List :   ['cat', 'dog', 'mouse']
+
+*********
+Our Target is :   
+Our Target is EMPTY !!
+
+*********
+Total --- 1  --- ways Solutions, it is [[]] :
+
+*********
+The Total Run Time:  0.00041858000000000173
+*********
+
+
+
+
+Test Case 4 : 
+
+*********
+Word Bank List :   ['car', 'ca', 'rs']
+
+*********
+Our Target is :   cars
+
+*********
+Total --- 1  --- ways Solutions, it is [['rs', 'ca']] :
+
+*********
+The Total Run Time:  0.0015128759999999963
+*********
+
+
+
+
+Test Case 5 : 
+
+*********
+Word Bank List :   []
+
+*********
+Our Target is :   
+Our Target is EMPTY !!
+
+*********
+Total --- 1  --- ways Solutions, it is [[]] :
+
+*********
+The Total Run Time:  0.00019820100000000895
+*********
+
+
+
+
+Test Case 6 : 
+
+*********
+Word Bank List :   ['ice', 'ice', 'ice', 'ice', 'ice', 'ice', 'ice', 'ice', 'ice']
+
+*********
+Our Target is :   ice
+
+*********
+Total --- 1  --- ways Solutions, it is [['ice']] :
+
+*********
+The Total Run Time:  0.0017546580000000062
+*********
+
+
+
+
+Test Case 7 : 
+
+*********
+Word Bank List :   ['4', '5', '6', '78', '9', '456', '789', '456789']
+
+*********
+Our Target is :   456789
+
+*********
+Total --- 5  --- ways Solutions, it is [['9', '78', '6', '5', '4'], ['789', '6', '5', '4'], ['9', '78', '456'], ['789', '456'], ['456789']] :
+
+*********
+The Total Run Time:  0.0015546460000000067
+*********
+
+
+
+
+Test Case 8 : 
+
+*********
+Word Bank List :   ['##', '#', '**', '*', '*', '$$', '$', '$']
+
+*********
+Our Target is :   ###***$$$
+
+*********
+Total --- 27  --- ways Solutions, it is [['$', '$$', '*', '**', '#', '##'], ['$$', '$', '*', '**', '#', '##'], ['$', '$', '$', '*', '**', '#', '##'], ['$', '$$', '**', '*', '#', '##'], ['$$', '$', '**', '*', '#', '##'], ['$', '$', '$', '**', '*', '#', '##'], ['$', '$$', '*', '*', '*', '#', '##'], ['$$', '$', '*', '*', '*', '#', '##'], ['$', '$', '$', '*', '*', '*', '#', '##'], ['$', '$$', '*', '**', '##', '#'], ['$$', '$', '*', '**', '##', '#'], ['$', '$', '$', '*', '**', '##', '#'], ['$', '$$', '**', '*', '##', '#'], ['$$', '$', '**', '*', '##', '#'], ['$', '$', '$', '**', '*', '##', '#'], ['$', '$$', '*', '*', '*', '##', '#'], ['$$', '$', '*', '*', '*', '##', '#'], ['$', '$', '$', '*', '*', '*', '##', '#'], ['$', '$$', '*', '**', '#', '#', '#'], ['$$', '$', '*', '**', '#', '#', '#'], ['$', '$', '$', '*', '**', '#', '#', '#'], ['$', '$$', '**', '*', '#', '#', '#'], ['$$', '$', '**', '*', '#', '#', '#'], ['$', '$', '$', '**', '*', '#', '#', '#'], ['$', '$$', '*', '*', '*', '#', '#', '#'], ['$$', '$', '*', '*', '*', '#', '#', '#'], ['$', '$', '$', '*', '*', '*', '#', '#', '#']] :
+
+*********
+The Total Run Time:  0.005522324000000009
+*********
+
+
+
+
+Test Case 9 : 
+
+*********
+Word Bank List :   ['G', 'ra', 'grad', 'grader']
+
+*********
+Our Target is :   rohantom
+
+*********
+Total --- 0  --- ways Solutions, it is [] :
+
+*********
+The Total Run Time:  0.0013365349999999998
+*********
+
+
+
+
+Test Case 10 : //if we decrease size of  string bbb--> bb or b it will lead to a large number of options and will give a TLE error. For simplification we have used 3 letter string as minimum size.
+
+*********
+Word Bank List :   ['bbb', 'bbbbbbbb', 'bbbbbbbbb', 'bbbbbbbbbb']
+
+*********
+Our Target is :   bbbbbbbbbbbbbbbbbbbb
+
+*********
+Total --- 12  --- ways Solutions, it is [['bbbbbbbb', 'bbb', 'bbb', 'bbb', 'bbb'], ['bbb', 'bbbbbbbb', 'bbb', 'bbb', 'bbb'], ['bbb', 'bbb', 'bbbbbbbb', 'bbb', 'bbb'], ['bbb', 'bbb', 'bbb', 'bbbbbbbb', 'bbb'], ['bbbbbbbbb', 'bbbbbbbb', 'bbb'], ['bbbbbbbb', 'bbbbbbbbb', 'bbb'], ['bbb', 'bbb', 'bbb', 'bbb', 'bbbbbbbb'], ['bbbbbbbbb', 'bbb', 'bbbbbbbb'], ['bbb', 'bbbbbbbbb', 'bbbbbbbb'], ['bbbbbbbb', 'bbb', 'bbbbbbbbb'], ['bbb', 'bbbbbbbb', 'bbbbbbbbb'], ['bbbbbbbbbb', 'bbbbbbbbbb']] :
+
+*********
+The Total Run Time:  0.0007938950000000028
+*********
+
+Process finished with exit code 0
